@@ -7,4 +7,4 @@
     Console.Write(x + " ");
 }
 
-MyMethod(15);
+MyMethod(20);
