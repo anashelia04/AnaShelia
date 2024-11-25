@@ -1,6 +1,4 @@
-﻿public class GenericMaxFinder
-{
-    public static T FindMaximum<T>(T[] array) where T : IComparable<T>
+﻿static T FindMaximum<T>(T[] array) where T : IComparable<T>
     {
         if (array == null || array.Length == 0)
         {
@@ -16,10 +14,9 @@
             }
         }
         return max;
-    }
+}
 
-    public static void Main(string[] args)
-    {   
+
         string[] words = { "apple", "banana", "cherry" };
         int[] numbers = { 13, 5, 20, 1, 99 };
 
@@ -27,5 +24,5 @@
         Console.WriteLine("Max in numbers: " + FindMaximum(numbers));
 
 
-    }
-}
+ 
+
