@@ -11,7 +11,7 @@ namespace Practice4
         private List<T> _items = new List<T>();
 
         public bool Enqueue(T item)
-        {
+        { 
             if (item == null)
                 return false; 
 
